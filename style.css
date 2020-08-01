@@ -1,0 +1,71 @@
+/*
+===============================
+SELECT ALL ELEMENTS ON THE PAGE
+===============================
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+/*
+=================================
+SET THE MAIN FONT OF THE DOCUMENT
+=================================
+*/
+:root {
+    font-family: 'Inter', sans-serif;
+}
+/*
+=============================
+CENTER EVERYTHING INSIDE MAIN
+=============================
+*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+/*
+=================
+STYLE THE NAV BAR
+=================
+*/
+.nav {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: default;
+}
+a {
+    color: black;
+    margin: 8px;
+}
+a:hover {
+    color: rgb(116, 116, 116);
+}
+/*
+================
+STYLE THE BUTTON
+================
+*/
+button {
+    padding: 12px;
+    margin: 20px;
+    color: black;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+.container {
+    cursor: default;
+}
