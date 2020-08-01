@@ -1,2 +1,2 @@
 # color_change
- Vanilla JavaScript that changes the background color on click.
+ This is a dummy repo for HEXColor.
