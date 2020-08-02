@@ -42,7 +42,7 @@ STYLE THE NAV BAR
     justify-content: space-around;
     align-items: center;
 
-    padding: 8px;
+    padding: 2em;
     height: 70px;
     width: 100%;
     cursor: default;
@@ -60,12 +60,17 @@ STYLE THE BUTTON
 ================
 */
 button {
-    padding: 12px;
+    padding: 1em;
     margin: 20px;
+
     color: black;
     cursor: pointer;
     background-color: greenyellow;
+    font-family: 'Inter';
 }
-.container {
-    cursor: default;
+h2 {
+    background-color: rgb(30, 32, 29);
+    color: whitesmoke;
+
+    padding: 0.7em;
 }
