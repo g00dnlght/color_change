@@ -1,5 +1,5 @@
 // Get all the objects.
-const colors = ['#8675a9', '#c3aed6', "#efbbcf", '#f15025'];
+const colors = ['#8675a9', '#c3aed6', "#efbbcf", '#f15025', '#fffffff', '#ff0000'];
 const btn = document.getElementById('btn');
 const color = document.querySelector('.color');
 
