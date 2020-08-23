@@ -4,12 +4,12 @@ SELECT ALL ELEMENTS ON THE PAGE
 ===============================
 */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    border: 0;
-    text-decoration: none;
-    overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  text-decoration: none;
+  overflow: hidden;
 }
 /*
 =================================
@@ -17,8 +17,8 @@ SET THE MAIN FONT OF THE DOCUMENT
 =================================
 */
 :root {
-    font-family: 'Inter', sans-serif;
-    background-color: rgb(122, 180, 35);
+  font-family: "Inter", sans-serif;
+  background-color: rgb(122, 180, 35);
 }
 /*
 =============================
@@ -26,11 +26,11 @@ CENTER EVERYTHING INSIDE MAIN
 =============================
 */
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
 }
 /*
 =================
@@ -38,22 +38,22 @@ STYLE THE NAV BAR
 =================
 */
 .nav {
-    background-color: greenyellow;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-    padding: 2em;
-    height: 70px;
-    width: 100%;
-    cursor: default;
+  padding: 2em;
+  height: 70px;
+  width: 100%;
+  cursor: default;
 }
 a {
-    color: black;
-    margin: 10px;
+  color: black;
+  margin: 10px;
 }
 a:hover {
-    color: rgb(116, 116, 116);
+  color: rgb(116, 116, 116);
 }
 /*
 ================
@@ -61,17 +61,17 @@ STYLE THE BUTTON
 ================
 */
 button {
-    padding: 1em;
-    margin: 20px;
+  padding: 1em;
+  margin: 20px;
 
-    color: black;
-    cursor: pointer;
-    background-color: greenyellow;
-    font-family: 'Inter';
+  color: black;
+  cursor: pointer;
+  background-color: greenyellow;
+  font-family: "Inter";
 }
 h2 {
-    background-color: rgb(30, 32, 29);
-    color: whitesmoke;
+  background-color: rgb(30, 32, 29);
+  color: whitesmoke;
 
-    padding: 0.7em;
+  padding: 0.7em;
 }
