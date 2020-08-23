@@ -78,3 +78,6 @@ h2 {
 button:active {
     transform: scale(1.1, 1.1);
 }
+button:hover {
+    background-color: rgb(152, 228, 37);
+}
