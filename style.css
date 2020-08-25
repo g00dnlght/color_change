@@ -29,8 +29,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: justify;
   height: 80vh;
+  flex-direction: column;
 }
 /*
 =================
@@ -50,7 +51,6 @@ STYLE THE NAV BAR
 }
 a {
   color: black;
-  margin: 10px;
 }
 a:hover {
   color: rgb(116, 116, 116);
@@ -73,7 +73,7 @@ h2 {
   background-color: rgb(30, 32, 29);
   color: whitesmoke;
 
-  padding: 0.7em;
+  padding: 0.6em;
 }
 button:active {
     transform: scale(1.1, 1.1);
